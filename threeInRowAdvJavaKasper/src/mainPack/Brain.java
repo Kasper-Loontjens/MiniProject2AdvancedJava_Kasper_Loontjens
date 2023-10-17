@@ -43,6 +43,8 @@ public class Brain {
 				// Then the board and GUI is updated
 				currentBoard = currentBoard.getChildBoard();
 				gui.updateGui(currentBoard);
+				// For testing, prints the AIs intended path in console
+				currentBoard.printBoard();
 				
 			}
 			
